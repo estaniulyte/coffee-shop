@@ -4,3 +4,18 @@
 @import 'src/styles/base/colors';
 @import 'src/styles/base/typography';
 @import 'src/styles/base/spacings';
+
+body {
+  margin: auto;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  margin: auto;
+  max-width: 1440px;
+}
