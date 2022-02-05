@@ -1,0 +1,59 @@
+@import 'src/styles/index';
+
+.tabs {
+  &__list {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+
+    .item {
+      box-sizing: border-box;
+      font-family: 'Rubik-Regular';
+      color: $color-gray;
+      text-decoration: none;
+      height: 100%;
+      font-size: 1rem;
+      align-items: center;
+      display: inline-block;
+      box-sizing: border-box;
+      width: 120px;
+      transition: color 0.3s;
+
+      &__name {
+        &::after {
+          content: '';
+          display: block;
+          width: 0;
+          height: 4px;
+          background: $color-tradewind;
+          margin-top: 4px;
+          border-radius: 50px;
+          transition: width .3s;
+        }
+
+        &:hover {
+          color: $color-black;
+          cursor: pointer;
+
+          &::after {
+            width: 40%;
+            transition: width .3s;
+          }
+        }
+      }
+
+      &--active {
+        color: $color-black;
+        font-family: 'Rubik-Medium';
+
+        h4::after {
+          width: 40%;
+          background: $color-gossamer;
+        }
+      }
+    }
+  }
+}
