@@ -1,1 +1,17 @@
 @import 'src/styles/index';
+
+.header {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 48px;
+  height: 100px;
+
+  .logo {
+    img {
+      height: 30px;
+    }
+  }
+}
