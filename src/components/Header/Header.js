@@ -5,12 +5,15 @@ import Tabs from './components/Tabs';
 import LogoIcom from 'assets/images/cafe-logo.png';
 
 import './header.scss';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <img src={LogoIcom} alt="logo" />
+        <NavLink to="/">
+          <img src={LogoIcom} alt="logo" />
+        </NavLink>
       </div>
       <div className="tabs">
         <Tabs />
