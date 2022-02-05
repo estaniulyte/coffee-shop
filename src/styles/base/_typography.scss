@@ -27,3 +27,21 @@
   font-family: 'SemiBold';
   src: url('../../assets/fonts/Rubik/Rubik-SemiBold.ttf') format('truetype');
 }
+
+
+html {
+  font-size: 14px;
+  font-family: 'Roboto-Regular';
+
+  @media screen and (min-width: 1024px) {
+    font-size: 15px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+  }
+
+  @media screen and (min-width: 1600px) {
+    font-size: 16px;
+  }
+}
