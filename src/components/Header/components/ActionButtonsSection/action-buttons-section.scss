@@ -1,0 +1,63 @@
+@import 'src/styles/index';
+
+.section {
+  &__list {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+
+    .list-item {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 8px;
+
+      svg {
+        stroke: $color-emperor;
+        stroke-width: 2;
+        transition: stroke 0.3s;
+
+        &:hover {
+          stroke: $color-black;
+        }
+      }
+
+      &--active {
+        background-color: red;
+        color: red;
+
+        svg {
+          stroke: $color-green-haze;
+        }
+      }
+    }
+
+    .button {
+      border: none;
+      background-color: transparent;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      span {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 8px;
+        background-color: $color-green-haze;
+        width: 24px;
+        height: 25px;
+        color: $color-white;
+        border-radius: .25rem;
+        font-size: .87rem;
+      }
+    }
+  }
+}
