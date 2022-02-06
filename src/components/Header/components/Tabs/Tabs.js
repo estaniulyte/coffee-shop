@@ -31,9 +31,9 @@ const Tabs = () => {
             key={item.name}
             to={item.link}
             className={({ isActive }) =>
-              isActive ? 'item item--active' : 'item'
+              isActive ? 'list-item list-item--active' : 'list-item'
             }>
-            <h4 className="item__name">{item.name}</h4>
+            <h4 className="list-item__name">{item.name}</h4>
           </NavLink>
         ))}
       </ul>
