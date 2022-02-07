@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/coffee-shop/static/css/main.3e92f5c3.css",
+    "main.css": "/coffee-shop/static/css/main.fdb5372d.css",
     "main.js": "/coffee-shop/static/js/main.83bcede3.js",
     "static/media/Rubik-Regular.ttf": "/coffee-shop/static/media/Rubik-Regular.da39336cfcac7980f2f1.ttf",
     "static/media/Rubik-Medium.ttf": "/coffee-shop/static/media/Rubik-Medium.5bd2b2c6ad8019567605.ttf",
@@ -14,11 +14,11 @@
     "static/media/hamburger.svg": "/coffee-shop/static/media/hamburger.79057a0182af2384ce532d12af0a7e47.svg",
     "static/media/user.svg": "/coffee-shop/static/media/user.0c32cb384f2cb655d6f1836673e102d2.svg",
     "static/media/search.svg": "/coffee-shop/static/media/search.b9d858974539277aa5d4dfb4d3fb2c81.svg",
-    "main.3e92f5c3.css.map": "/coffee-shop/static/css/main.3e92f5c3.css.map",
+    "main.fdb5372d.css.map": "/coffee-shop/static/css/main.fdb5372d.css.map",
     "main.83bcede3.js.map": "/coffee-shop/static/js/main.83bcede3.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e92f5c3.css",
+    "static/css/main.fdb5372d.css",
     "static/js/main.83bcede3.js"
   ]
 }
