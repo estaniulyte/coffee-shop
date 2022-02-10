@@ -1,0 +1,28 @@
+@import 'src/styles/index';
+
+.hamburger-icon {
+  width: 20px;
+
+  &:before,
+  &:after,
+  & div {
+    background: $color-emperor;
+    content: "";
+    display: block;
+    height: 3px;
+    border-radius: 3px;
+    margin: 4px 0;
+    transition: 0.5s;
+  }
+
+  &--active:before {
+    transform: translateY(7px) rotate(135deg);
+  }
+  &--active:after {
+    transform: translateY(-7px) rotate(-135deg);
+  }
+  &--active div {
+    transform: scale(0);
+  }
+}
+
