@@ -2,11 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 // import classNames from 'classnames';
 
+import './comercial-card.scss';
+
 const ComercialCard = ({ heading, description, color, children }) => {
   return (
-    <article>
-      <h1>{heading}</h1>
-      <p>{description}</p>
+    <article className="carde">
+      <h1 className="carde__heading">{heading}</h1>
+      <p className="carde__description">{description}</p>
       <div>{children}</div>
     </article>
   );
