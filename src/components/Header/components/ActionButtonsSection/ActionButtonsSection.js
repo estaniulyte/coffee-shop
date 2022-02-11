@@ -29,7 +29,9 @@ const ActionButtonsSection = () => {
             key={item.name}
             to={item.link}
             className={({ isActive }) =>
-              isActive ? 'list-item list-item--active' : 'list-item'
+              isActive
+                ? 'list-item list-item--hide-on-mobile list-item--active'
+                : 'list-item list-item--hide-on-mobile'
             }>
             {item.svg}
           </NavLink>
