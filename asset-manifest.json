@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/coffee-shop/static/css/main.a158581f.css",
-    "main.js": "/coffee-shop/static/js/main.4642081e.js",
+    "main.css": "/coffee-shop/static/css/main.2c28ce6a.css",
+    "main.js": "/coffee-shop/static/js/main.29496b17.js",
     "static/media/Rubik-Regular.ttf": "/coffee-shop/static/media/Rubik-Regular.da39336cfcac7980f2f1.ttf",
     "static/media/Rubik-Medium.ttf": "/coffee-shop/static/media/Rubik-Medium.5bd2b2c6ad8019567605.ttf",
     "static/media/Rubik-SemiBold.ttf": "/coffee-shop/static/media/Rubik-SemiBold.52d2adf4cb818e79b61d.ttf",
@@ -9,15 +9,18 @@
     "static/media/Rubik-ExtraBold.ttf": "/coffee-shop/static/media/Rubik-ExtraBold.b30aba6dab6c09b0ebcc.ttf",
     "static/media/Rubik-Light.ttf": "/coffee-shop/static/media/Rubik-Light.7ee66bf7f540d7bbc3a1.ttf",
     "static/media/cafe-logo.png": "/coffee-shop/static/media/cafe-logo.f18e3e9da23c5404101e.png",
+    "static/media/instagram.svg": "/coffee-shop/static/media/instagram.eaa67068d582b195b1ed6b7952242f54.svg",
+    "static/media/twitter.svg": "/coffee-shop/static/media/twitter.bf62bb63d8c96df72deb13d7a311662d.svg",
     "index.html": "/coffee-shop/index.html",
     "static/media/shopping.svg": "/coffee-shop/static/media/shopping.d566753bf98dc82d3f042055860eca12.svg",
+    "static/media/facebook.svg": "/coffee-shop/static/media/facebook.919ee427e25ae5a33c408cb4e51a5803.svg",
     "static/media/user.svg": "/coffee-shop/static/media/user.ac8765919dfcf7470697a2ac709a2210.svg",
     "static/media/search.svg": "/coffee-shop/static/media/search.2746043fab86b91e0d7d931613c88aef.svg",
-    "main.a158581f.css.map": "/coffee-shop/static/css/main.a158581f.css.map",
-    "main.4642081e.js.map": "/coffee-shop/static/js/main.4642081e.js.map"
+    "main.2c28ce6a.css.map": "/coffee-shop/static/css/main.2c28ce6a.css.map",
+    "main.29496b17.js.map": "/coffee-shop/static/js/main.29496b17.js.map"
   },
   "entrypoints": [
-    "static/css/main.a158581f.css",
-    "static/js/main.4642081e.js"
+    "static/css/main.2c28ce6a.css",
+    "static/js/main.29496b17.js"
   ]
 }
