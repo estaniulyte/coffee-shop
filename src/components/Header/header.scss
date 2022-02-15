@@ -13,6 +13,11 @@
     display: none;
   }
 
+  .action-buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+
   &__item {
     flex-grow: 1;
     width: max-content;
