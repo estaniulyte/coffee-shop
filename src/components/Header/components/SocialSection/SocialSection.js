@@ -34,6 +34,7 @@ const SocialSection = () => {
         heading="Sign up for our newsletter"
         description="Be the first to know when we launch a new product or when we need your support to rally for a cause.">
         <form className="sign-up">
+          <input className="sign-up__email-field item" type="text" required />
           <button className="sign-up__sign-up-button item">Sign up</button>
         </form>
       </ComercialCard>
