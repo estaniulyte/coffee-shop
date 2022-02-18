@@ -1,0 +1,43 @@
+@import 'src/styles/index';
+
+.card {
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  margin: 0;
+
+  &__heading {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+  }
+
+  &__description {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin: .8rem 0 0;
+  }
+
+  &--light {
+    background-color: #EFEEE6;
+
+    .card__description {
+      color: #78716c;
+    }
+  }
+
+  &--dark {
+    background-color: #1b4c42;
+    color: white;
+
+    .card__description {
+      color: #e7e5e4;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .card {
+    padding: 24px;
+  }
+}

@@ -20,9 +20,10 @@
         stroke: $color-emperor;
         stroke-width: 2.2;
         transition: stroke 0.3s;
+        height: 25px;
 
         &:hover {
-          stroke: $color-tradewind
+          stroke: $color-tradewind;
         }
       }
 
@@ -48,14 +49,40 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        box-sizing: border-box;
         margin: 0 0 0 8px;
         background-color: $color-green-haze;
-        width: 24px;
+        width: 25px;
         height: 25px;
         color: $color-white;
         border-radius: .25rem;
         font-size: .87rem;
       }
+    }
+
+    @media (max-width: 900px) {
+        margin: 0;
+        padding: 0;
+        justify-content: flex-end;
+
+        .list-item {
+          svg {
+            height: 23px;
+          }
+
+          &--hide-on-mobile {
+            display: none;
+          }
+        }
+
+        .button {
+          span {
+            width: 16px;
+            height: 19px;
+            margin: 0 0 0 4px;
+            font-size: 0.8rem;
+          }
+        }
     }
   }
 }

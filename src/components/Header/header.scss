@@ -9,13 +9,68 @@
   padding: 0 48px;
   height: 100px;
 
+  .hamburger-menu {
+    display: none;
+  }
+
+  .action-buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+
   &__item {
     flex-grow: 1;
+    width: max-content;
   }
 
   .logo {
     img {
       height: 30px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    padding: 0 5px;
+    display: flex;
+    height: 50px;
+
+    .tabs {
+      display: none;
+    }
+
+    .hamburger-menu {
+      display: inline;
+      width: 30%;
+
+      .button {
+        border: none;
+        background-color: transparent;
+
+        svg {
+          stroke: $color-emperor;
+          stroke-width: 2.2;
+          height: 35px;
+        }
+      }
+    }
+
+    .logo {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding-right: 15px;
+
+      img {
+        height: 1.8rem;
+      }
+    }
+
+    .action-buttons {
+      width: 30%;
     }
   }
 }

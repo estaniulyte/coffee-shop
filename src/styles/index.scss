@@ -9,7 +9,7 @@ body {
   margin: auto;
   padding: 0;
   max-width: 1300px;
-  background-color: #6ac0a91c;
+  background-color: #c3f0e411;
 }
 
 .app {
@@ -19,4 +19,11 @@ body {
 
 .content {
   margin: auto;
+  padding: 20px 32px;
+}
+
+@media (max-width: 900px) {
+  .content {
+    padding: 10px 24px;
+  }
 }

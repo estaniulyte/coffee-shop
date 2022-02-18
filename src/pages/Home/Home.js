@@ -1,3 +1,4 @@
+import SocialSection from 'components/Header/components/SocialSection';
 import React from 'react';
 
 import './home.scss';
@@ -5,8 +6,7 @@ import './home.scss';
 const Home = () => {
   return (
     <main>
-      Home
-      <p>home</p>
+      <SocialSection />
     </main>
   );
 };
