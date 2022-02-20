@@ -3,7 +3,6 @@
 .section {
   &__list {
     align-items: center;
-    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -49,7 +48,6 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        box-sizing: border-box;
         margin: 0 0 0 8px;
         background-color: $color-green-haze;
         width: 25px;
@@ -61,7 +59,6 @@
     }
 
     @media (max-width: 900px) {
-        margin: 0;
         padding: 0;
         justify-content: flex-end;
 
