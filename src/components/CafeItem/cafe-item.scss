@@ -1,0 +1,15 @@
+@import 'src/styles/index';
+
+.cafe-container {
+  display: flex;
+  border-radius: 10px;
+  padding: 1rem;
+  flex-wrap: wrap;
+  background-color: #EFEEE6;
+  gap: 10px;
+  width: 100%;
+
+  img {
+    width: 20rem;
+  }
+}
